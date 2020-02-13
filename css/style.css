@@ -2,6 +2,8 @@ body {
     margin: auto;
     max-width: 980px;
     background-image: url("../img/ninja-background3.png");
+    background-attachment: fixed;
+    /*define se a img sofre ou nao scroll*/
     text-align: justify
 }
 
