@@ -1,0 +1,101 @@
+body {
+    margin: auto;
+    max-width: 980px;
+    background-image: url("../img/ninja-background3.png");
+    text-align: justify
+}
+
+.conteudo-site {
+    padding: 10px 15px;
+    margin: auto;
+    max-width: 980px;
+    background-color: rgba(221, 216, 233, 0.849);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+a {
+    font-family: serif;
+    color: rgb(28, 4, 51);
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.logo-site {
+    max-width: 200px;
+}
+
+img:not(.logo-site) {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+iframe {
+    display: block;
+    margin: 25px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p em {
+    font-size: 20px;
+    font-family: serif;
+    text-shadow: 1px 1px 1px #8f8f8f;
+}
+
+p strong {
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 1, 73);
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 30px;
+    padding: 3px;
+}
+
+ol+em,
+ul+em {
+    color: rgb(100, 100, 100);
+}
+
+
+/*Estilizaçao links*/
+
+ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(28, 4, 51);
+}
+
+a:active {
+    text-decoration: solid;
+    color: rgb(255, 218, 7);
+}
+
+a:visited {
+    color: rgb(60, 30, 90);
+}
+
+a:hover {
+    transition-duration: 100ms;
+    font-size: larger;
+}
+
+a[href^="http"] {
+    padding-left: 20px;
+    background-image: url("../img/globo.png");
+    background-repeat: no-repeat;
+    margin-left: 0;
+}
